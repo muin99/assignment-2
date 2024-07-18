@@ -46,7 +46,9 @@ nav ul li a {
     margin-right: 90px;
 
 }
+
 .nav-bar li{
+    
     margin-right: 47px;
     margin-top: 40px;
     
@@ -57,17 +59,43 @@ nav ul li a {
     background-color: rgb(230, 83, 60);
     border-radius: 46px;
     align-items: center;
-    width: 92px;
-    height: 38px;
     border: none;
     color: white;
+    padding: 11px 24px 10px 24px;;
 
 }
-
+.banner-btn{
+    padding: 16px 40px 16px 40px;;
+}
+.trans{
+    background-color: transparent;
+    border: 1px solid;
+}
 /* main-banner */
 .shape{
     font-style: italic;
 }
 .main-banner{
+        font-size: 60px;
+        align-items: flex-start;
+        font-weight: 900;
+        font-family: "Inter", sans-serif;
+        margin-right: 168px;
+        margin-left: 90px;
+        
+}
+.banner-disc{
+    font-size: 16px;
+    opacity: 0.8; 
+    color: white;
+    margin-right: 87px;
     
+    
+}
+.banner-parent{
+    display: flex;
+}
+.banner-img1{
+    margin-top: 32px;
+    margin-right: 100px;
 }
