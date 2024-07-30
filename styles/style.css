@@ -61,6 +61,7 @@ nav ul li a {
 }
 
 
+
 /* shared items */
 .btn-primary{
     background-color: rgb(230, 83, 60);
@@ -141,9 +142,7 @@ nav ul li a {
     margin-left: 44px;
     align-items: center;
 }
-.banner-img{
-    /* z-index: 2; */
-}
+
 
 /* banner-2 */
 .container{
@@ -441,6 +440,10 @@ footer{
     font-family: "Inter", sans-serif;
     margin-top: 70px;
 }
+.logo-disc{
+    width: 65%;
+}
+
 .allfooter{
     display: flex;
 }
@@ -454,7 +457,8 @@ footer{
     font-size: 14px;
 }
 .getstart-footer{
-    margin: 50px 0px 0px auto;
+    margin: 50px 50px 0px 0px;
+    
 }
 .getstart-footer ul{
     padding-left: 0px;
@@ -495,18 +499,12 @@ footer{
     opacity: 0.4;
     width: 85%;
 }
+.footer-nav{
+    display: flex;
+}
 
 
 
-
-
-
-
-
-
-
-
-    
 @media screen and (max-width: 576px){
     *{
         
@@ -678,6 +676,9 @@ footer{
     .container-2 button{
         margin: 0px;
     }
+    .gym-title-disc{
+        margin-left: 40px;
+    }
     .e3{
         display: none;
         flex-wrap: nowrap;
@@ -738,5 +739,25 @@ footer{
     .mmbr .i6{
         padding: 0px;
     }
-    
+    .allfooter{
+        display: block;
+    }
+    .logo-disc p{
+        margin-left: 40px;
+        width: 100%;
+    }
+    .footer-logo{
+        margin-left: 40px;
+    }
+    .footer-nav{
+        margin-left: 40px;
+        
+    }
+    .getstart-footer h3{
+        font-size: 15px;
+    }
+    .getstart-footer2 h3{
+        font-size: 15px;
+    }
+
 }
