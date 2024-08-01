@@ -19,7 +19,7 @@
             <li class="logo-primary web-logo">Fitness</li>
             <ul>
                 <div class="nav-bar">
-                    <li><a href="#"><button class="btn-primary home-btn">Home</button></a></li>
+                    <li><a href="#"><button class="btn-primary ">Home</button></a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
@@ -110,28 +110,28 @@
                     <h1 class="gym-title">Trainings and Exercises</h1>
                     <p class="gym-text">We believe fitness should be accessible to everyone, everywhere, regardless of
                         income or access
-                        to a gym.</p>
+                        to a gym</p>
                 </div>
                 <div class="grid-img0">
                     <div class="exer e1" style="background-image: url(images/exercise1.jpg);">
-                        <h3>Unlock Your Fitness Superpowers</h3>
+                        <h3></h3>
                     </div>
                     <div class="exer e2" style="background-image: url(images/exercise2.png);">
-                        <h3>No pain, No gain</h3>
+                        <h3></h3>
                     </div>
                     <div class="exer e3" style="background-image: url(images/exercise3.png);">
-                        <h3>Be bold, Be fit</h3>
+                        <h3></h3>
                     </div>
                 </div>
                 <div class="grid-img1">
                     <div class="exer e4" style="background-image: url(images/exercise4.png);">
-                        <h3>Leg Press: Works the quadriceps and glutes</h3>
+                        <h3></h3>
                     </div>
                     <div class="exer e5" style="background-image: url(images/exercise5.jpg);">
-                        <h3>Discover Your Strength</h3>
+                        <h3></h3>
                     </div>
                     <div class="exer e6" style="background-image: url(images/exercise6.jpg);">
-                        <h3>Train Like a Champion</h3>
+                        <h3></h3>
                     </div>
                 </div>
             </div>
@@ -179,11 +179,23 @@
                          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
                             <div class="form">
                                 <form class="calc">
-                                    <input type="number" placeholder="Height/cm">
-                                    <input type="number" placeholder="Weight/kg">
-                                    <input type="number" placeholder="Age">
-                                    <input type="text" placeholder="Sex">
-                                    <input id="input-text" type="text" placeholder="Select an activity factor">
+                                    <input type="number" placeholder="Height/cm" id="height">
+                                    <input type="number" placeholder="Weight/kg" id="weight">
+                                    <input type="number" placeholder="Age" id="age">
+                                    <select name="gender" class="select" id="gender" placeholder="Sex">
+                                        <option value="" disabled selected>Select your gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <select name="activity" class="select" id="act">
+                                        <option value="" disabled selected class="placeholder" id="acitivity">Select an Activity Factor</option>
+                                        <option value="sedentary">Sedentary (little or no exercise)</option>
+                                        <option value="lightly_active">Lightly active (light exercise/sports 1-3 days a week)</option>
+                                        <option value="moderately_active">Moderately active (moderate exercise/sports 3-5 days a week)</option>
+                                        <option value="very_active">Very active (hard exercise/sports 6-7 days a week)</option>
+                                    </select>
+                                    
                                 </form>
                                 <button class="btn-primary">Calculate</button>
                             </div>
@@ -191,24 +203,6 @@
                    
                 </div>
             </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="team">
                 <h1 class="team-title">Meet Our Team</h1>
                 <p class="team-disc">We believe fitness should be accessible to everyone, everywhere, regardless of
@@ -243,6 +237,8 @@
 
 
         </section>
+
+    
 
     </main>
 
@@ -285,7 +281,6 @@
                 <hr class="hr">
                 <p><small>&copy;All right reserved @fitness 2024</small></p>
             </div>
-
 
         </section>
 

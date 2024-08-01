@@ -56,16 +56,13 @@ nav ul li a {
     align-items: center;
     margin-right: 90px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
+    border-radius: 46px;
+    margin-top: 40px;
    
 }
 
 .nav-bar li{
-    
     margin-right: 47px;
-    margin-top: 40px;
-    
-    
 }
 
 
@@ -439,12 +436,37 @@ nav ul li a {
     
     .calc{
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3;
         gap: 18px ;
+        margin-right: 180px;
     }
-    #input-text{
-        grid-column: span 2;
+    #height{
+        grid-column: 1;
+        grid-row: 1;
+        padding: 12px 20px 12px 20px;
     }
+    #weight{
+        grid-column: 2;
+        grid-row: 1;
+        padding: 12px 20px 12px 20px;
+    }
+    #age{
+        grid-column: 1;
+        grid-row: 2;
+        padding: 12px 20px 12px 20px;
+    }
+    #gender{
+        grid-column: 2;
+        grid-row: 2;
+        padding: 12px 20px 12px 20px;
+    }
+    #act{
+       grid-column: span 2;
+       grid-row: 3;
+       padding: 12px 20px 12px 20px;
+    }
+
     .container-calc{
         margin-left: 170px;
         margin-top: 50px;
@@ -458,9 +480,7 @@ nav ul li a {
         font-size: 27px;
         margin: 0px;
     }
-    .calc input[type="number"], input[type="text"]{
-        height: 38px;
-        width: 100%;
+    .calc input[type="number"], input[type="text"], .select{
         border-radius: 8px;
         background-color: rgba(255, 255, 255, 0.1);
         border: none;
@@ -470,6 +490,11 @@ nav ul li a {
         margin-top: 32px;
         margin-bottom: 50px;
     }
+    .select  {
+        
+    }
+
+    
 
 
 
@@ -903,6 +928,7 @@ footer{
     }
     .container-calc{
         margin-left: 20px;
+        
     }
     .container-calc p{
         margin-right: 0px;
@@ -911,13 +937,22 @@ footer{
         margin: 25px 0px 25px 20px;
     }
     .calc{
-        gap: 5px;
+        gap: 10px;
     }
-    .calc input[type="number"], input[type="text"]{
-       height: 40px;
-       width: 77%;
+    #height{
+        padding: 12px 5px 12px 5px;
     }
-    #input-text{
-        width: 89%;    
-    } 
+    #weight{
+        padding: 0px 5px 0px 5px;
+    }
+    #age{
+        padding: 12px 5px 12px 5px;
+    }
+    #gender{
+        padding: 0px 5px 0px 5px;
+    }
+    #act{
+        padding: 12px 5px 12px 5px;
+    }
+
 }
