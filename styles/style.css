@@ -427,12 +427,11 @@ nav ul li a {
     }
     td{
         border: solid 1px rgba(128, 128, 128, 0.178);
-        padding: 5px 40px 15px 5px;
-        
+        padding: 15px 23px;
     }
     th{
         border: solid 1px rgba(128, 128, 128, 0.178);
-        padding: 5px 40px 5px 5px;
+        padding: 15px 23px;
     }
     td{
         opacity: 0.4;
