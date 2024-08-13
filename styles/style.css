@@ -597,6 +597,7 @@ footer{
 }
 .getstart-footer ul li{
     list-style: none;
+    line-height: 25px;
 }
 .getstart-footer ul li a{
     color: white;
@@ -613,6 +614,7 @@ footer{
 
 .getstart-footer2 ul li{
     list-style: none;
+    line-height: 25px
 }
 .getstart-footer2 ul li a{
     color: white;
@@ -966,6 +968,9 @@ select {
     }
     .main-title-disc{
         margin: 25px 0px 25px 20px;
+    }
+    .main-title-disc h1{
+        font-size: 40px;
     }
     .calc{
         gap: 10px;
