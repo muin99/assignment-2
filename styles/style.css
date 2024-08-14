@@ -10,11 +10,6 @@
 html{
     margin: 0px;
 }
-                
-* {
-    
-    
-}
 header{
     font-family: "Inter", sans-serif;
 }
@@ -440,7 +435,7 @@ nav ul li a {
     
     .calc{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 3;
         gap: 18px ;
         margin-right: 180px;
@@ -702,11 +697,12 @@ select {
     .main-banner-title{
         margin-bottom: 20px;
         font-size: 36px;
-        margin-right: 100px;
+        margin-right: 10%;
+        width: 80%;
     }
     .shape{
         font-family: 'Miama', sans-serif;
-        font-weight: 400px;
+        font-weight: 1;
         font-style: italic;
         font-size: 50px;
         padding: 0px;
@@ -716,7 +712,7 @@ select {
         font-size: 20px;
         opacity: 0.4; 
         color: white;
-        margin-right: 120px;
+        margin-right: 20%;
         margin-top: 45px
     }
 
@@ -728,8 +724,7 @@ select {
         color: white;
         padding: 16px 40px 16px 40px;
         cursor: pointer;
-        font-size: 20px;
-        
+        font-size: 15px;
     
     }
     .banner-btn{
@@ -740,17 +735,20 @@ select {
         border: 1px solid;
     }
     .pos{
-        width: 300px;
+        font-size: 13px;
+        width: 200px;
         float: left;
-        margin-top: -320px;
-        margin-left: 10%;
+        margin-top: -40%;
+        margin-left: 5%;
         z-index: 1;
         position: relative;
     }
     .pos1{
+        font-size: 13px;
+        width: 200px;
         float: right;
-        margin-top: -520px;
-        margin-right: 10%;
+        margin-top: -98%;
+        margin-right: 5%;
         z-index: 1;
         position: relative;
     }
@@ -758,7 +756,8 @@ select {
         display: flex;
     }
     .banner-img1{
-        align-items: center;
+        align-items: flex-start;
+        width: 85%;
     }
     .container{
         text-align: center;
@@ -919,10 +918,6 @@ select {
     .mmbr{
         background-size: cover;
         margin-bottom: 25px;
-
-    }
-    .i1{
-
     }
     .mmbr .i6{
         padding: 0px;
@@ -952,43 +947,116 @@ select {
         font-size: 15px;
     }
     /* BMI calc */
+    /* BMI calculator */
+    .container-3{
+        margin: 0px;
+        padding: 0px;
+    }
     .main-content{
+        background-color: rgb(34, 34, 34);
+        display: flex;
         flex-direction: column;
+    }
+    .main-title-disc{
+        margin: 35px;
+    }
+    .main-title-disc h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .main-title-disc p{
+        font-size: 14px;
+        opacity: 0.4;
+        margin: 0px;
     }
     .chart{
         margin-left: 20px;
-        margin-bottom: 42px;
+        margin-bottom: 10px;
+
     }
-    .container-calc{
-        margin-left: 20px;
+    .tab{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chart h1{
+        font-size: 18px;
+        margin: 50px 0px 25px;
+    }
+    table{
+        border-collapse: collapse;
+        font-size: 12px;;
         
     }
-    .container-calc p{
-        margin-right: 0px;
+    td{
+        border: solid 1px rgba(128, 128, 128, 0.178);
+        padding: 10px 23px;
     }
-    .main-title-disc{
-        margin: 25px 0px 25px 20px;
+    th{
+        border: solid 1px rgba(128, 128, 128, 0.178);
+        padding: 15px 23px;
     }
-    .main-title-disc h1{
-        font-size: 40px;
-    }
-    .calc{
-        gap: 10px;
-    }
-    #height{
-        padding: 12px 5px 12px 5px;
-    }
-    #weight{
-        padding: 0px 5px 0px 5px;
-    }
-    #age{
-        padding: 12px 5px 12px 5px;
-    }
-    #gender{
-        padding: 0px 5px 0px 5px;
-    }
-    #act{
-        padding: 12px 5px 12px 5px;
+    td{
+        opacity: 0.4;
     }
 
-}
+    
+    .calc{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 3;
+        gap: 18px ;
+        margin-right: 20px;
+    }
+    #height{
+        grid-column: 1;
+        grid-row: 1;
+        padding: 12px 20px 12px 20px;
+    }
+    #weight{
+        grid-column: 2;
+        grid-row: 1;
+        padding: 12px 20px 12px 20px;
+    }
+    #age{
+        grid-column: 1;
+        grid-row: 2;
+        padding: 12px 20px 12px 20px;
+    }
+    #gender{
+        grid-column: 2;
+        grid-row: 2;
+        padding: 12px 20px 12px 20px;
+    }
+    #act{
+       grid-column: span 2;
+       grid-row: 3;
+       padding: 12px 20px 12px 20px;
+    }
+
+    .container-calc{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .container-calc p{
+        opacity: 0.4;
+        font-size: 14px;
+        margin-right: auto;
+    }
+    .container-calc h1{
+        font-size: 27px;
+        margin: 0px;
+    }
+    .calc input[type="number"], input[type="text"], .select{
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        padding: 0px 5px 0px 5px;
+    }
+    .form button{
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+    .select  {
+        
+    }
