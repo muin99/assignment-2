@@ -1358,6 +1358,7 @@ select option {
     }
 
     .pack {
+        height: 80vh;
         width: 100%;
         margin: 5px 0px;
         padding: 0px 20px;
