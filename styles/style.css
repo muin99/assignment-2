@@ -1354,12 +1354,12 @@ select option {
 
     .pack-container {
         flex-direction: column;
-        padding: 0px 60px;
+        padding: 0px 50px;
     }
 
     .pack {
-        width: auto;
-        margin: 5px 20px;
+        width: 100%;
+        margin: 5px 0px;
         padding: 0px 20px;
         padding-bottom: 20px;
     }
