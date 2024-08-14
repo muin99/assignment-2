@@ -673,7 +673,12 @@ input[type="text"],
     background-blend-mode: multiply;
 
 }
-
+.pack:hover{
+    transform:scale(1.1) ;
+    transition: 0.5s;
+    z-index: 2;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 88%), 0 0 20px 0 rgb(0 0 0 / 88%);
+}
 .pack h3 {
     text-align: center;
     padding: 0px;
@@ -711,10 +716,17 @@ input[type="text"],
     padding: 10px 20px;
     cursor: pointer;
 }
+.pack-btn:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
 
 .p1 {
     background-color: rgba(57, 100, 195);
 }
+
 
 .sub {
     justify-self: flex-end;
@@ -732,6 +744,7 @@ input[type="text"],
 
 
 }
+
 
 .p3 {
     background-color: #A96E6C;
