@@ -642,7 +642,8 @@ input[type="text"],
 
 /* Pack */
 .full-cont {
-    background: linear-gradient(90deg, black, rgb(32, 32, 32), black);
+    /* background: linear-gradient(90deg, black, rgb(32, 32, 32), black); */
+    background-image: url("../images/ba.webp");
     padding: 100px 0px;
     margin: 100px 0px;
 }
@@ -671,6 +672,7 @@ input[type="text"],
     background-image: url("../images/overlay.jpg");
 
     background-blend-mode: multiply;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 55%), 0 0 20px 0 rgb(0 0 0 / 55%);
 
 }
 .pack:hover{
@@ -727,13 +729,18 @@ input[type="text"],
      background-color: rgba(57, 100, 195);
 }
 .p1:hover{
-    background-color:rgb(9, 49, 134) ;
+    background-color:rgb(34, 90, 211) ;
 }
 
 
 .sub {
     justify-self: flex-end;
 
+}
+.sub h4{
+    text-decoration: line-through;
+    margin: 0px;
+    padding: 0px;
 }
 
 .p2 {
@@ -1347,6 +1354,7 @@ select option {
 
     .pack-container {
         flex-direction: column;
+        padding: 0px 60px;
     }
 
     .pack {
