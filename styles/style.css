@@ -1179,7 +1179,6 @@ select option {
     }
 
     .allfooter {
-        /* display: block; */
         margin-left: 40px;
         flex-direction: column;
     }
@@ -1333,7 +1332,7 @@ select option {
         border-radius: 8px;
         background-color: rgba(255, 255, 255, 0.1);
         border: none;
-        padding: 0px 5px 0px 5px;
+        padding: 12px 20px 12px 20px;
     }
 
     .form button {
